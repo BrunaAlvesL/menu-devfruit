@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/atendimento.css" />
+    <title>Atendimento</title>
+  </head>
+  <body>
+    <!--Menu-->
+    <nav class="menu-drop">
+      <div class="tittle">
+        <h1>DevFruit</h1>
+      </div>
+      <ul>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="index.html">Carrinho</a></li>
+        <li><a href="atendimento.html">Atendimento</a></li>
+        <li>
+          <a href="login.html">Login</a>
+          <ul>
+            <li><a href="editar.html">Editar perfil</a></li>
+            <li><a href="sair.html">Sair</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!--formulario-->
+    <div class="container">
+        <div class="form">
+          <form action="#">
+            <div class="form-header">
+              <div class="title-form">
+                <h2>Atendimento</h2>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-box">
+                <label for="firstname">Primeiro Nome</label>
+                <input
+                  id="firstname"
+                  type="text"
+                  name="firstname"
+                  placeholder="Digite seu primeiro nome"
+                  required
+                />
+              </div>
+  
+              <div class="input-box">
+                <label for="email">E-mail</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu e-mail"
+                  required
+                />
+              </div>
+  
+              <div class="input-box">
+                <label for="password">Nº do pedido</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="Digite o numero do pedido"
+                  required
+                />
+              </div>
+            </div>
+            <div class="text">
+              <textarea
+                class="textarea"
+                placeholder="Escreva sua mensagem..."
+              ></textarea>
+            </div>
+  
+            <div class="continue-button">
+              <button><a href="carrinho.html">Enviar</a></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    
+    
+    <!--Rodapé-->
+    <footer class="footerContainer">
+        <div class="main-content">
+        <div class="left box">
+          <h2> Sobre nós</h2>
+          <div class="content">
+            <p>Seu hortifruti online. Frutas, Legumes, Verduras, Raízes, Cogumelos e Ovos frescos, direto para sua casa.</p>
+          
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div><!--left box-->
+        <div class="center box">
+          <h2>Endereço</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker"></span>
+              <span class="text">Barra Funda, São Paulo</span>
+            </div>
+    
+            <div class="phone">
+              <span class="fas fas fa-phone-alt"></span>
+              <span class="text">+55 11 9999-9999</span>
+            </div>
+    
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">DevFrui@hortifruti.com.br</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Receba todas as promoções</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Mensagem *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div><!--main-content-->
+      <div class="bottom">
+        <div class="center">
+          <span class="credit">Criado por <a href="#">DevFruit</a></span>
+          <span class="far fa-copyright">2022 Todos os diteitos reservados</span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    
+    </div>
+  </body>
+</html>

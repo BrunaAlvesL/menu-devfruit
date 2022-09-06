@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*menu*/
+:root {
+  --cor-fundo: #929f47;
+  --cor-hover: #f1c40f;
+  --cor-primaria: #fef5da;
+}
+
+.menu-drop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  font-size: 18px;
+}
+
+.tittle h1 {
+  position: absolute;
+  right: 50px;
+  top: 15px;
+  color: var(--cor-primaria);
+}
+
+.menu-drop ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.menu-drop ul {
+  background-color: var(--cor-fundo);
+}
+
+.menu-drop ul li {
+  display: inline;
+  position: relative;
+}
+
+.menu-drop ul li a {
+  color: var(--cor-primaria);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.menu-drop ul li a:hover {
+  background-color: var(--cor-hover);
+}
+
+/* Sub menu */
+
+.menu-drop ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.menu-drop ul li:hover ul {
+  display: block;
+}
+
+.menu-drop ul ul {
+  width: 150px;
+}
+
+.menu-drop ul ul li a {
+  display: block;
+}
+/*form*/
+body {
+  width: 100%;
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  position: relative;
+  bottom: -10px;
+  align-items: center;
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  border: dashed 3px #f1c40f;
+}
+.form-image {
+  position: relative;
+  margin: 70px;
+  padding: 10px;
+  left: 800px;
+  top: -40px;
+}
+.form-image img {
+  width: 18rem;
+}
+.form {
+  position: absolute;
+  align-items: center;
+  padding: 100px;
+}
+
+.form-header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.title h2 {
+  color: #008000;
+  font-size: 40px;
+}
+.text {
+  background-color: #fff;
+  color: #499749c0;
+  padding: 5 em;
+  border-radius: 10px;
+  border: 9px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 200px;
+  height: 100px;
+  transition: all 0.2s;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.login-button button {
+  border: none;
+  background-color: #008000;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button button:hover {
+  background-color: #f1c40f;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid #008000;
+}
+
+.input-box label,
+.card-title h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.input-box input::placeholder {
+  color: #000000be;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.62rem;
+  padding: 0 0.5rem;
+}
+
+.card-input {
+  display: flex;
+  align-items: center;
+}
+
+.card-input input {
+  margin-right: 0.35rem;
+}
+
+.card-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.continue-button button {
+  width: 90%;
+  margin-top: 1rem;
+  border: none;
+  background-color: #008000;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue-button button:hover {
+  background-color: #f1c40f;
+}
+
+.continue-button button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}
